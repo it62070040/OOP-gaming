@@ -55,5 +55,15 @@ public abstract class PowerUp extends Sprite {
             super(anim);
         }
     }
+    public static class Goal2 extends PowerUp {
+        public Goal2(Animation anim){
+            super(anim);
+        }
+    }
+    public static class Drink extends PowerUp{
+        public Drink(Animation anim){
+            super(anim);
+        }
+    }
 
 }

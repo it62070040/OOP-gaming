@@ -1,11 +1,11 @@
-
-
-
-
-                2                o              ooooo     2        o                           2
-                   2            ooo        2     ooo              ooo       2                     2     2
-                      2        ooooo              o   2          ooooo           2        2
-          2     !               2      2       2           2!          2                  2             2
-oooooooooooooooFFooooooooooEEooooooooooooooooooooooooooooooEEooooooooooooooooEEoooooooooooEEooooooooooooooooooo
-ooooooooo3oo3ooEEooooo3ooooEEoooooo3oooooooooo3ooooooooo3ooEEooooo3oooooo3oooEEooooo3oooooEEoo3oooooo3oooo!oo*o
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+                                                                                                               AA
+                                                                                                               AA
+                                                                                                               AA
+                                                                                                               AA
+                4                o              ooooo     4        o                           4               AA
+                   4            ooo        4     ooo              ooo       4                     4     4      AA 
+                      4        ooooo              o   4          ooooo           4        4                    AA
+          4     0               4      4       4           40          4                  4             4      AA
+oooooooooooooooCCooooooooooCCooooooooooooooooooooooooooooooCCooooooooooooooooCCoooooooooooCCoooooooooooooooooooAA
+ooooooooo+oo3ooDDooooo3ooooDDoooooo3oooooooooo3ooooooooo3ooDDooooo3oooooo3oooDDooooo3oooooDDoo3oooooo3oooo0oo*oAA
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAA

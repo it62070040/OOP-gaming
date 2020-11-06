@@ -11,6 +11,7 @@ public class Player extends Creature
     private static final float JUMP_SPEED = -.95f;
 
     private boolean onGround;
+    private float s = 0.5f;
 
     public Player(Animation left, Animation right, Animation deadLeft, Animation deadRight)
     {
@@ -59,7 +60,9 @@ public class Player extends Creature
 
 
     public float getMaxSpeed() {
-        return 0.5f;
+        return this.s;
     }
-
+    public void setMaxSpeed(float s){
+        this.s = s;
+    }
 }

@@ -1,12 +1,12 @@
 
-						                        		      EB
-EB                                                                                            CA
-BF          o o o                o o o o o o o o o o o o o o o o o o o o o o o o              CA
-AD         IIIIIII      o 1 o   IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII            CA
-AD        1            IIIIIII               II          o 1 o   IAAAAAAAAAAAAAAAI            CA
-AD       III        2              2         II          IIIII   IAAAAAAAAAAAAAAAII o o o o   CA
-AD                  II       III                                 IAAAAAAAAAAAAAAAII o o o o   CA
-AD     III                              1    1  1       2      * IAAAAAAAAAAAAAAAI  IIIIIII   CA
-AD                   1        1 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII  o o o o o CA
-AD      1    1  EBBBBBBBBBBBBBBBF o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o CA
-AHBBBBBBBBBBBBBBGAAAAAAAAAAAAAAAHBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBGA
+AA                          666666666666666666666666666666666666666666666666666666666         EB
+AA                                                       4                                    CA
+AA          o o o            4   o o o o o o o4o o o o o o4o o o o4o o4o o o o 6 ?            CA
+AA         HHHHHHH      o 5 o 44HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH            CA
+AA        5            HHHHHHH          6    HH    6     o666o666H?oo?o????o????HH            CA
+AA       HHH        5       4   4  2         HH         6HHHHH6  H?oo?o?oooo?oooHH  o o o o   CA
+AA                 HHH       HHH             4  6     6    6  6 4H????o???oo???oHH  o o o o   CA
+AA     HHH              5           4   6    6  6       4  4 6 *4H?oo?o?oooo?oooHH  HHHHHHHH  CA
+AA                   5     4  5 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH?oo?o????o????HH  o o o o o CA
+AA      5    5 4FFFFFFFFFFFFFFFFF 6 o o5o5o o o o o o o o o o o o o o o o o o o o o o o o o o5CA
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG

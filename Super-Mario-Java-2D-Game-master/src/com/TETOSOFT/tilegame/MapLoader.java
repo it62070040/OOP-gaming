@@ -29,7 +29,12 @@ public class MapLoader
     private Sprite grubSprite;
     private Sprite flySprite;
     private Sprite cockSprite;
-
+    private Sprite goalSprite2;
+    private Sprite phoSprite;
+    private Sprite birdSprite;
+    private Sprite snakeSprite;
+    private Sprite drinkSprite;
+    private Sprite dogSprite;
     /**
         Creates a new ResourceManager with the specified
         GraphicsConfiguration.
@@ -172,6 +177,9 @@ public class MapLoader
                 else if (ch == 'o') {
                     addSprite(newMap, coinSprite, x, y);
                 }
+                else if (ch == '0') {
+                    addSprite(newMap, phoSprite, x, y);
+                }
                 else if (ch == '!') {
                     addSprite(newMap, musicSprite, x, y);
                 }
@@ -186,6 +194,21 @@ public class MapLoader
                 }
                 else if (ch == '3') {
                     addSprite(newMap, cockSprite, x, y);
+                }
+                else if (ch == '4'){
+                    addSprite(newMap, birdSprite, x, y);
+                }
+                else if (ch == '5'){
+                    addSprite(newMap, snakeSprite, x, y);
+                }
+                else if (ch == '6'){
+                    addSprite(newMap, dogSprite, x, y);
+                }
+                else if (ch == '+'){
+                    addSprite(newMap, goalSprite2, x, y);
+                }
+                else if (ch == '?'){
+                    addSprite(newMap, drinkSprite, x, y);
                 }
             }
         }
@@ -278,6 +301,16 @@ public class MapLoader
             loadImage("co1.png"),
             loadImage("co2.png"),
             loadImage("co3.png"),
+            loadImage("bird1.png"),
+            loadImage("bird2.png"),
+            loadImage("snake1.png"),
+            loadImage("snake2.png"),
+            loadImage("snake3.png"),
+            loadImage("snake4.png"),
+            loadImage("snake5.png"),
+            loadImage("dog1.png"),
+            loadImage("dog2.png"),
+            loadImage("dog3.png")
         };
 
         images[1] = new Image[images[0].length];
@@ -299,6 +332,9 @@ public class MapLoader
         Animation[] flyAnim = new Animation[4];
         Animation[] grubAnim = new Animation[4];
         Animation[] cockAnim = new Animation[4];
+        Animation[] birdAnim = new Animation[4];
+        Animation[] snakeAnim = new Animation[4];
+        Animation[] dogAnim = new Animation[4];
         
         for (int i=0; i<4; i++) 
         {
@@ -306,6 +342,9 @@ public class MapLoader
             flyAnim[i] = createFlyAnim (images[i][1], images[i][1], images[i][3]);
             grubAnim[i] = createGrubAnim (images[i][4], images[i][5], images[i][6], images[i][7], images[i][8], images[i][9], images[i][10], images[i][11], images[i][12], images[i][13], images[i][14], images[i][15], images[i][16], images[i][17]);
             cockAnim[i] = createCockAnim (images[i][18], images[i][19], images[i][20]);
+            birdAnim[i] = createBirdAnim (images[i][21], images[i][22]);
+            snakeAnim[i] = createSnakeAnim (images[i][23], images[i][24], images[i][25], images[i][26], images[i][27]);
+            dogAnim[i] = createDogAnim (images[i][28], images[i][29], images[i][30]);
         }
 
         // create creature sprites
@@ -313,6 +352,9 @@ public class MapLoader
         flySprite = new Fly (flyAnim[0], flyAnim[1],flyAnim[2], flyAnim[3]);
         grubSprite = new Grub (grubAnim[0], grubAnim[1],grubAnim[2], grubAnim[3]);
         cockSprite = new Cock (cockAnim[0], cockAnim[1], cockAnim[2], cockAnim[3]);
+        birdSprite = new Bird (birdAnim[0], birdAnim[1], birdAnim[2], birdAnim[3]);
+        snakeSprite = new Snake (snakeAnim[0], snakeAnim[1], snakeAnim[2], snakeAnim[3]);
+        dogSprite = new Dog (dogAnim[0], dogAnim[1], dogAnim[2], dogAnim[3]);
     }
 
 
@@ -355,9 +397,32 @@ public class MapLoader
         anim.addFrame(img14, 100);
         return anim;
     }
+    private Animation createSnakeAnim(Image img1, Image img2, Image img3, Image img4, Image img5){
+        Animation anim = new Animation();
+        anim.addFrame(img1, 130);
+        anim.addFrame(img2, 130);
+        anim.addFrame(img3, 130);
+        anim.addFrame(img4, 130);
+        anim.addFrame(img5, 130);
+        return anim;
+    }
+    private Animation createBirdAnim(Image img1, Image img2)
+    {
+        Animation anim = new Animation();
+        anim.addFrame(img1, 50);
+        anim.addFrame(img2, 50);
+        return anim;
+    }
     
     private Animation createCockAnim(Image img1, Image img2, Image img3)
     {
+        Animation anim = new Animation();
+        anim.addFrame(img1, 100);
+        anim.addFrame(img2, 100);
+        anim.addFrame(img3, 100);
+        return anim;
+    }
+    private Animation createDogAnim(Image img1, Image img2, Image img3){
         Animation anim = new Animation();
         anim.addFrame(img1, 100);
         anim.addFrame(img2, 100);
@@ -386,7 +451,16 @@ public class MapLoader
         anim.addFrame(loadImage("coin11.png"),100);
         anim.addFrame(loadImage("coin12.png"),100);
         coinSprite = new PowerUp.Star(anim);
-
+        
+        anim = new Animation();
+        anim.addFrame(loadImage("pho1.png"), 50);
+        anim.addFrame(loadImage("pho2.png"), 50);
+        phoSprite = new PowerUp.Music(anim);
+        
+        anim = new Animation();
+        anim.addFrame(loadImage("drink1.png"), 80);
+        anim.addFrame(loadImage("drink2.png"), 80);
+        drinkSprite = new PowerUp.Drink(anim);
         // create "music" sprite
         anim = new Animation();
         anim.addFrame(loadImage("music1.png"), 150);
@@ -395,6 +469,9 @@ public class MapLoader
         anim.addFrame(loadImage("music2.png"), 150);
         musicSprite = new PowerUp.Music(anim);
         musicSprite=new PowerUp.Music(anim);
+        
+        anim.addFrame(loadImage("goal2.png"), 150);
+        goalSprite2 = new PowerUp.Goal2(anim);
     }
 
 }

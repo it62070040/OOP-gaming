@@ -6,6 +6,6 @@
               1      IIIIIII  IIIIIII       oooo         1                           o o o o    
              II                         2   IIII        III        2   2   2    F
                        2     2     2          2        2        2           2  EE
-                                                                              EEE
-    *   EF   1    EF      1      1      FE     1   1    F  1   1   E   1  1  EEEE        1  1   *
+       !0?                                                                    EEE
+        EF   1    EF      1      1      FE     1   1    F  1   1   E   1  1  EEEE        1  1   *
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
