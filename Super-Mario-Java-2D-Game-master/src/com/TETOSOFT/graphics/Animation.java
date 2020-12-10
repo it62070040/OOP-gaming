@@ -42,15 +42,15 @@ public class Animation
     public synchronized void start() 
     {
         animTime = 0;
-        currFrameIndex = 0;
+        currFrameIndex = 0; //ตนรูปภาพ
     }
 
 
     public synchronized void update(long elapsedTime) 
     {
-        if (frames.size() > 1) 
+        if (frames.size() > 1)
         {
-            animTime += elapsedTime;
+            animTime += elapsedTime; //
 
             if (animTime >= totalDuration) 
             {
